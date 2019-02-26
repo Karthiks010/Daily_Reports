@@ -17,7 +17,7 @@ server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
 server.starttls()
 server.ehlo()
-server.login("karthiks010vs@gmail.com", "9164007420")
+server.login("karthik@gmail.com", "********")
 text = msg.as_string()
 server.sendmail(fromaddr, toaddr, text)
 
